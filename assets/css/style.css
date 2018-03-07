@@ -1,0 +1,54 @@
+@import url("reset.css");
+
+body {
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    height: 60px;
+    background-color: lightsalmon;
+}
+
+footer {
+    height: 40px;
+    line-height: 40px;
+    background-color: tan;
+    clear: left;
+}
+
+footer p {
+    text-align: center;
+}
+
+div#container {
+    width: 800px;
+    min-height: 300px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    background-color: #CCC;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label {
+    float: left;
+    width: 120px;
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+
+form input[type="reset"] {
+    float: left;
+    width: 80px;
+    margin: 0 0 0 40px;
+}
+
+form input[type="submit"] {
+    float: left;
+    width: 80px;
+    margin: 0 0 0 10px;
+}
