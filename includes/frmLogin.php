@@ -1,4 +1,5 @@
 <form method="post" action="#">
+    <div>
         <label for="mail">Mail : </label>
         <input type="text" name="mail" />
     </div>
